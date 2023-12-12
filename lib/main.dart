@@ -19,10 +19,6 @@ class WebViewApp extends StatefulWidget {
 class _WebViewAppState extends State<WebViewApp> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter WebView'),
-        ),
-        body: const WebView());
+    return const WebView();
   }
 }

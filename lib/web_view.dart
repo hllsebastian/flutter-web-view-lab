@@ -25,7 +25,8 @@ class WebView extends StatelessWidget {
           },
         ),
       )
-      ..loadRequest(Uri.parse('https://flutter.dev'));
+      ..loadRequest(Uri.parse('https://www.amazon.com'));
+    // ..loadRequest(Uri.parse('https://flutter.dev'));
     return Scaffold(
       appBar: AppBar(title: const Text('Flutter Simple Example')),
       body: WebViewWidget(controller: controller),
